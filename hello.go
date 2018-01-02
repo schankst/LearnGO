@@ -9,9 +9,11 @@ func z() {
 }
 
 func main() {
-	fmt.Print("Hello World")
+	c := 0
+
+	c, _ = fmt.Print("Hello World")
 	a = 10
-	print(a)
+	fmt.Println(a, c)
 	b := "Hello new world"
-	println(b)
+	fmt.Println(b)
 }
