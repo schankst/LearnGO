@@ -10,7 +10,7 @@ var y string
 // func z has no parameters
 func z() {
 	y = ` hello "some text" printed out`
-	println(a + 1)
+	fmt.Println(a + 1)
 	fmt.Println(y)
 }
 
