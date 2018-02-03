@@ -35,6 +35,9 @@ func main() {
 	fmt.Printf("Slize z %v\n", z)
 
 	fmt.Println(z[:3])
-	fmt.Println(z[4:])
+	fmt.Println(z[8:])
+
+	z = append(z[:3], z[8:]...)
+	fmt.Printf("Slize z %v\n", z)
 
 }
