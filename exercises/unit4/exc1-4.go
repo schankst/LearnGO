@@ -15,9 +15,6 @@ func main() {
 	// fmt.Println(x)
 	// fmt.Println(y)
 
-	// fmt.Println(len(x))
-	// fmt.Println(cap(y))
-
 	// for i, v := range y {
 	// 	fmt.Println(i, v)
 	// }
@@ -39,5 +36,9 @@ func main() {
 
 	z = append(z[:3], z[8:]...)
 	fmt.Printf("Slize z %v\n", z)
+
+	a := make([]int, 10, 100)
+	fmt.Println(len(a))
+	fmt.Println(cap(a))
 
 }
